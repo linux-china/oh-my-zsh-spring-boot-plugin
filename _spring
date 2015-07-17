@@ -11,10 +11,13 @@ __spring_run() {
         '--autoconfigure[Add autoconfigure compiler transformations (default: true)]' \
         '--watch[Watch the specified file for changes]' \
         '--quiet[Quiet logging]' \
+        '-q[Quiet logging]' \
         '--verbose[Verbose logging of dependency resolution]' \
+        '-v[Verbose logging of dependency resolution]' \
         '--no-guess-dependencies[Do not attempt to guess dependencies]' \
         '--no-guess-imports[Do not attempt to guess imports]' \
         '--classpath[Additional classpath entries]'
+        '--cp[Additional classpath entries]'
 }
 
 __spring_test() {
