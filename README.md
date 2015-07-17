@@ -5,6 +5,13 @@ oh-my-zsh Spring Boot plugin
 
 - Adds autocomplete options for all spring boot commands.
 
+## Manual Install
+
+     $ cd ~/.oh-my-zsh/plugins
+     $ git clone git@github.com:linux-china/oh-my-zsh-spring-boot-plugin.git spring
+
+Adjust your .zshrc file and add spring to plugins=(...)  
+ 
 ## Reference
 
 * Spring Boot: http://projects.spring.io/spring-boot/
